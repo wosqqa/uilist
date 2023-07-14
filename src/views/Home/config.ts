@@ -205,6 +205,13 @@ export function uiList() {
       desc: '榜单、排行、进度、记录、前后、计时、input',
     },
     {
+      img: 'dn/comluck.png',
+      git: 'http://gitlab.tt.cn/xyzh5/shake-u/activities/blob/master/src/pages/ceremony/components/points/luckyPop.vue',
+      url: 'https://h5.douni.com/activities__test/ceremony.html?p=competition',
+      app: '抖你',
+      desc: '轮动、抽奖、转盘',
+    },
+    {
       img: 'dn/points.png',
       git: 'http://gitlab.tt.cn/xyzh5/shake-u/activities/blob/master/src/pages/ceremony/pageComponents/points.vue',
       url: 'https://h5.douni.com/activities__test/ceremony.html?p=points',
@@ -288,6 +295,13 @@ export function uiList() {
       url: 'https://m.tataxingqiu.com/txqfe__test/mass/dragon23.html?hidenavbar=1',
       app: '他她星球',
       desc: '端午、爱、刮刮卡、榜单、列表、前后、计时',
+    },
+    {
+      img: 'tt/misteryBox.png',
+      git: 'http://gitlab.tt.cn/xyzh5/his-planet/mass/blob/master/src/pages/misteryBox/App.vue',
+      url: 'https://m.tataxingqiu.com/txqfe__test/mass/misteryBox.html?hidenavbar=1',
+      app: '他她星球',
+      desc: '盲盒、爱、弹幕、列表',
     },
   ]
 }
