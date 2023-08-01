@@ -6,7 +6,8 @@ function Home() {
   const [ulist, setUlist] = useState(uiList)
   const goAboutPage = (item) => {
     console.log('跳转git', item)
-    window.open(item.git)
+    // window.open(item.git)
+    window.open(item.url, '', 'height=850,width=400,scrollbars=yes,status =yes')
   }
   const userArr = ulist.map((item, index) => (
     <img className={HomeStyle.item} src={'./img/' + item.img} key={index} onClick={() => goAboutPage(item)} />
