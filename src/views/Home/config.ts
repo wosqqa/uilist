@@ -487,5 +487,19 @@ export function uiList() {
       app: '轻甜',
       desc: '充值、礼物、抽取、排行、cp、计时',
     },
+    {
+      img: 'qt/520.png',
+      git: 'http://gitlab.tt.cn/xyzh5/qt/mass/blob/master/src/views/520/App.vue',
+      url: 'https://qingtian.tt.cn/fe__test/mass2/520/index.html?isfullscreen=1&isstatusbar=1&hidenavbar=1',
+      app: '轻甜',
+      desc: '转盘、礼物、排行、cp、进度',
+    },
+    {
+      img: 'qt/family-pk.png',
+      git: 'http://gitlab.tt.cn/xyzh5/qt/mass/blob/master/src/views/family-pk/App.vue',
+      url: 'https://qingtian.tt.cn/fe__test/mass2/family-pk/index.html?isfullscreen=1&isstatusbar=1&hidenavbar=1',
+      app: '轻甜',
+      desc: 'PK、礼物、排行、cp、进度、计时',
+    },
   ]
 }
