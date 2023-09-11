@@ -4,7 +4,7 @@ import { uiList } from './config'
 function Home() {
   const [keyWords, setKeyWords] = useState('')
   const [ulist, setUlist] = useState(uiList)
-  const goAboutPage = (item) => {
+  const goAboutPage = (item:any) => {
     console.log('跳转git', item)
     // window.open(item.git)
     window.open(item.url, '', 'height=850,width=400,scrollbars=yes,status =yes')
@@ -18,7 +18,7 @@ function Home() {
     console.log('你按了回车键...', keyWords, ul)
     setUlist(ul)
   }
-  const keySearchData = (e) => {
+  const keySearchData = (e:any) => {
     if (e.which !== 13) return
     getUiList()
   }
